@@ -64,5 +64,139 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-earningscalls-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://earningscalls.dev/
+EarningsCalls.dev provides a REST API delivering earnings call transcripts, speaker segments, and full‑text search for financial analysts and developers. With over 20 endpoints and an OpenAPI 3.0 specification, the service offers pricing plans starting at $24.99/month and aims to simplify integration of corporate earnings data into analytics, research tools, and AI applications.
+
+**Areas:** Company · Finance · Data · API · Transcripts · EarningsCalls
+
+## earningscalls-dev on APIs.io
+
+Everything profiled for earningscalls-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/earningscalls-dev/](https://apis.io/providers/earningscalls-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [earningscalls-dev Companies API](https://apis.io/apis/earningscalls-dev/earningscalls-dev-companies-api/) — Company search and details
+- [earningscalls-dev Earnings API](https://apis.io/apis/earningscalls-dev/earningscalls-dev-earnings-api/) — Earnings call listing and details
+- [earningscalls-dev Exports API](https://apis.io/apis/earningscalls-dev/earningscalls-dev-exports-api/) — The Exports API from earningscalls-dev — 1 operation(s) for exports.
+- [earningscalls-dev Issuers API](https://apis.io/apis/earningscalls-dev/earningscalls-dev-issuers-api/) — The Issuers API from earningscalls-dev — 1 operation(s) for issuers.
+- [earningscalls-dev Metadata API](https://apis.io/apis/earningscalls-dev/earningscalls-dev-metadata-api/) — Sectors, industries, exchanges, and database stats
+- [earningscalls-dev Search API](https://apis.io/apis/earningscalls-dev/earningscalls-dev-search-api/) — Full-text search (Pro/Enterprise)
+- [earningscalls-dev Speakers API](https://apis.io/apis/earningscalls-dev/earningscalls-dev-speakers-api/) — Speaker segments and analysis (Pro/Enterprise)
+- [earningscalls-dev Transcripts API](https://apis.io/apis/earningscalls-dev/earningscalls-dev-transcripts-api/) — Full transcript text (Pro/Enterprise)
+- [earningscalls-dev Webhooks API](https://apis.io/apis/earningscalls-dev/earningscalls-dev-webhooks-api/) — The Webhooks API from earningscalls-dev — 3 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Earningscalls Dev Agentic Access](https://apis.io/agentic-access/earningscalls-dev/earningscalls-dev-agentic-access/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Earningscalls Dev Openapi Overlay](https://apis.io/overlays/earningscalls-dev/earningscalls-dev-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [earningscalls-dev API Rules](https://apis.io/rules/earningscalls-dev/earningscalls-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Earningscalls Dev Authentication](https://apis.io/security/earningscalls-dev/earningscalls-dev-authentication/)
+- [Earningscalls Dev Domain Security](https://apis.io/security/earningscalls-dev/earningscalls-dev-domain-security/)
+- [Earningscalls Dev Vulnerability Disclosure](https://apis.io/security/earningscalls-dev/earningscalls-dev-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Earningscalls Dev Scopes](https://apis.io/scopes/earningscalls-dev/earningscalls-dev-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Earningscalls Dev Plans Pricing](https://apis.io/plans/earningscalls-dev/earningscalls-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Earningscalls Dev Rate Limits](https://apis.io/rate-limits/earningscalls-dev/earningscalls-dev-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://earningscalls.dev/)
+- [Documentation](https://earningscalls.dev/docs)
+- [Getting started](https://earningscalls.dev/docs)
+- [API reference](https://earningscalls.dev/docs)
+- [Pricing](https://earningscalls.dev/#pricing)
+- [Support](https://earningscalls.dev/docs)
+- [Blog](https://earningscalls.dev/blog)
+- [Terms of service](https://earningscalls.dev/terms)
+- [Privacy policy](https://earningscalls.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.2** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 44.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 31.6 |
+
+**Agent readiness 50.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/earningscalls-dev/](https://apis.io/providers/earningscalls-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for earningscalls-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/earningscalls-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
